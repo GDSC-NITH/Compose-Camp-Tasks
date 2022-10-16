@@ -22,4 +22,6 @@ fun main(){
     AP.app()
     val sg = webDeveloper("Semi God", 20)
     sg.web()
+    val rnd = (6..10).random()//random value generated from 6 to 10 (both included)
+    println("You will take about $rnd months to become a Professional Developer")
 }
